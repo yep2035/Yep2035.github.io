@@ -5,16 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Executive Team - Youth Empowerment Campaign</title>
     <link rel="stylesheet" href="style.css">
-</head>
     <style>
-      .team-member img {
-    width: 150px; /* Adjust as needed */
-    height: 150px; /* Adjust as needed */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fits within the circle */
-    margin-bottom: 20px;
-}  
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        #executive-team {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        #executive-team h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .team-member {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: calc(33.333% - 30px);
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .team-member h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #007bff;
+        }
+
+        .team-member p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .team-member {
+                width: calc(50% - 30px);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .team-member {
+                width: 100%;
+            }
+        }
     </style>
+</head>
 <body>
     <header>
         <h1>Meet Our Executive Team</h1>
@@ -37,18 +129,21 @@
                     <h3>Victory Awojobi</h3>
                     <p>Public Relations Officer</p>
                 </div>
- <div class="team-member">
+                <div class="team-member">
                     <img src="path/to/passion.jpg" alt="Darasimi">
                     <h3>Somide Darasimi</h3>
-                    <p>Head of mobilization</p>
- <div class="team-member">
+                    <p>Head of Mobilization</p>
+                </div>
+                <div class="team-member">
                     <img src="bazeet.jpg" alt="Bazeet">
                     <h3>Ogunbayode Bazeet</h3>
                     <p>Youth Engagement</p>
- <div class="team-member">
+                </div>
+                <div class="team-member">
                     <img src="path/to/passion.jpg" alt="Favour">
                     <h3>Mustaphar Favour</h3>
-                    <p>Head pf Operations</p>
+                    <p>Head of Operations</p>
+                </div>
                 <div class="team-member">
                     <img src="path/to/mazeedah.jpg" alt="Mazeedah">
                     <h3>Mazeedah Lamidi</h3>
